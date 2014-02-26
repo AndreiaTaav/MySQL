@@ -6,7 +6,7 @@ MySQL =  banco de dados(armazenamento)
 
 
 com o botao direito em cima do servidor CONECTA E LIGA O EASYPHP
- CRIA LOJA_VESP
+ CRIA banco de dados LOJA_VESP
   DENTRO DELE TABELA
      FUNCIONARIO
      CARGO
