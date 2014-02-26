@@ -3,3 +3,12 @@ html + css + desing = telas (formularios)
 php = sistemas(programacao)
 
 MySQL =  banco de dados(armazenamento)
+
+
+com o botao direito em cima do servidor CONECTA E LIGA O EASYPHP
+ CRIA LOJA_VESP
+  DENTRO DELE TABELA
+     FUNCIONARIO
+     CARGO
+     SETOR
+     
