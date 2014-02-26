@@ -1,0 +1,13 @@
+select setor.nome AS 'Setor'
+        ,funcionario.nome AS 'Funcionario'
+        ,cargo.nome AS 'Cargo'
+from funcionario
+
+inner join setor
+on funcionario.setor = setor.id
+
+inner join cargo
+on funcionario.cargo = cargo.id
+
+order by funcionario.nome
+;
