@@ -1,0 +1,18 @@
+select setor.nome AS 'Setor'
+        ,funcionario.nome AS 'Funcionario'
+        ,cargo.nome AS 'Cargo'
+        ,funcionario.salario_base 
+            AS 'Salario Base'
+        ,(1 + cargo.comissao) 
+             * funcionario.salario_base
+            AS 'Salario Total'
+from funcionario
+
+inner join setor
+on funcionario.setor = setor.id
+
+inner join cargo
+on funcionario.cargo = cargo.id
+
+order by funcionario.nome
+;
